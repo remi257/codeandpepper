@@ -1,6 +1,9 @@
 <h2>Star Wars Battles</h2>
 
 <div class="board">
+  <div>
+    <p>{{fightResult}}</p>
+  </div>
   <div class="card-container">
     <p class="score">{{score1}}</p>
     <app-card [person]="person1" [borderColor]="winner == person1 ? 'green' : 'red'"></app-card>
