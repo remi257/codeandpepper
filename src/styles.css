@@ -5,6 +5,11 @@
 }
 
 body {
-    background: #242424;
-    color: #DDDDDD
+    color: #DDDDDD;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+        url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages6.alphacoders.com%2F857%2F857790.jpg&f=1&nofb=1&ipt=75ac96dd9ae2c017f8fdcacc1aa5f9b0adbd9eb1153facd7aeca133f10c2ad97&ipo=images');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
