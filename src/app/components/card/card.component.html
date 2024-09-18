@@ -1,0 +1,12 @@
+<ng-template #personCard>
+    <div class="card" [ngStyle]="{'border-color': borderColor}">
+        <p>{{person!.name}}</p>
+        <p>{{person!.mass}}</p>
+    </div>
+</ng-template>
+
+<div *ngIf="person == undefined; else personCard">
+    <div class="card">
+        <p>empty card</p>
+    </div>
+</div>

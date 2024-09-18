@@ -1,0 +1,17 @@
+h2 {
+    text-align: center;
+}
+
+.card-container {
+    display: inline-block;
+    width: 30%;
+}
+
+.board {
+    text-align: center;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 32px;
+}
